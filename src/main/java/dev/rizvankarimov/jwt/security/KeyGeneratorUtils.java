@@ -1,4 +1,4 @@
-package dev.danvega.jwt.security;
+package dev.rizvankarimov.jwt.security;
 
 import org.springframework.stereotype.Component;
 

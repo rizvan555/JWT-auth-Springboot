@@ -1,7 +1,5 @@
 package dev.danvega.jwt.controller;
 
-import dev.danvega.jwt.security.SecurityConfig;
-import dev.danvega.jwt.service.TokenService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -9,6 +7,11 @@ import org.springframework.context.annotation.Import;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
+
+import dev.rizvankarimov.jwt.controller.AuthController;
+import dev.rizvankarimov.jwt.controller.HomeController;
+import dev.rizvankarimov.jwt.security.SecurityConfig;
+import dev.rizvankarimov.jwt.service.TokenService;
 
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.httpBasic;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

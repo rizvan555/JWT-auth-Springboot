@@ -1,4 +1,4 @@
-package dev.danvega.jwt.service;
+package dev.rizvankarimov.jwt.service;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;

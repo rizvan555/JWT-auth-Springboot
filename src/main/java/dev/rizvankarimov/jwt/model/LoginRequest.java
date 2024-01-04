@@ -1,4 +1,4 @@
-package dev.danvega.jwt.model;
+package dev.rizvankarimov.jwt.model;
 
 public record LoginRequest(String username, String password) {
 

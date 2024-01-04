@@ -1,4 +1,4 @@
-package dev.danvega.jwt.security;
+package dev.rizvankarimov.jwt.security;
 
 import com.nimbusds.jose.JOSEException;
 import com.nimbusds.jose.jwk.JWKSet;
@@ -48,8 +48,8 @@ public class SecurityConfig {
     @Bean
     public UserDetailsService userDetailsService() {
         return new InMemoryUserDetailsManager(
-                User.withUsername("dvega")
-                        .password("{noop}password")
+                User.withUsername("rizvan")
+                        .password("{noop}rizvan123")
                         .authorities("read")
                         .build()
         );
